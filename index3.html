@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Changelog Component</title>
+<link rel="stylesheet" href="style.css">
+<STYLE>
+.text{
+color:'black';
+text-align:'center';
+size:40%;
+}
+.timeline{
+position:relative;
+max-width:1200px;
+margin:40px auto;
+padding:20px;
+}
+.timeline-line{
+position:absolute;
+width:6px;
+background-color:black;
+top:0;
+bottom:0;
+left:50%;
+transform:translateX(-50%);
+}
+.timeline-item{
+position:relative;
+width:50%;
+box-sizing:border-box;
+padding:10px 40px;
+}
+.timeline-item.left{
+left:0;
+text-align:right;
+padding-right:40px;
+}
+.timeline-item.right{
+left:50%;
+padding:10px 20px;
+text-align:left;
+}
+.timeline-content p{
+color:'green';
+line-height:1.5;
+}
+.timeline-dot{
+position:absolute;
+width:20px;
+height:20px;
+background-color:'red';
+border:4px solid;
+border-radius:50%;
+top:10px;
+z-index:2;
+}
+.timeline-content{
+position:relative
+padding:20px 30px;
+}
+.timeline-item.left .timeline-dot{
+right:-13px;
+}
+.timeline-item.right .timeline-dot{
+left:-13px;
+}
+</STYLE>
+</HEAD>
+<BODY background-color:'lightblue'>
+<H1 align='center'><B>Changelog</B></H1>
+<DIV class='timeline'>
+<DIV class='timeline-line'></DIV>
+<DIV class='timeline-item left'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>CHANGELOG PAGE</H3>
+<P>To keep practing the begineers course of Frontened Developer<BR>JUN 21,2026</P>
+</DIV>
+</DIV>
+<DIV class='timeline-item right'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>REDDISH ROADMAP</H3>
+<P>JUN 23,2026</P>
+</DIV>
+</DIV>
+<DIV class='timeline-item left'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>SUBMITTION</H3>
+<P>submission of all the Frontened project ideas<BR>JUN 29,2026 </P>
+</DIV>
+</DIV>
+<DIV class='timeline-item right'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>BACKENED PROJECT</H3>
+<P>Starting solving Backened project ideas<BR> JUL 01,2026</P>
+</DIV>
+</DIV>
+<DIV class='timeline-item left'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>GitHub</H3>
+<P>Building a strong profile and getting feedbacks<BR> JUL 07,2026</P>
+</DIV>
+</DIV>
+<DIV class='timeline-item right'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>SKILLS</H3>
+<P>Building strong Skills for companies laying a potential foundation<BR>JUL 22,2026</P>
+</DIV>
+</DIV>
+<DIV class='timeline-item left'>
+<DIV class='timeline-dot'></DIV>
+<DIV class='timeline-content'>
+<H3>ANNOUNCING PROJECTS</H3>
+<P>JUL 31,2026</P>
+</DIV>
+</DIV>
+</DIV>
+</BODY>
+</HTML>
